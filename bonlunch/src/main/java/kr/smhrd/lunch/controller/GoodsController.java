@@ -14,7 +14,7 @@ import kr.smhrd.lunch.dto.GoodsDTO;
 import kr.smhrd.lunch.service.GoodsService;
 
 // 연결할 리엑트 port주소연결 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://43.203.217.225:5173")
 @RestController
 @RequestMapping("/api") //리엑트 설정한 경로 동일설정
 public class GoodsController {

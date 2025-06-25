@@ -14,7 +14,7 @@ public class WebConfig {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				// 리엑트에서 설정한 주소 ("/lunch/api/**"), ("http://localhost:5173")
-				registry.addMapping("/lunch/api/**").allowedOrigins("http://localhost:5173")
+				registry.addMapping("/lunch/api/**").allowedOrigins("http://43.203.217.225:5173")
 						.allowedMethods("GET", "POST", "PUT", "DELETE").allowCredentials(true);
 			}
 		};
